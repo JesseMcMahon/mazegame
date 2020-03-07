@@ -2,8 +2,10 @@
 
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 
-const cellsHorizontal = 10;
-const cellsVertical = 10;
+const randomGenerator = Math.floor(Math.random() * 7 + 5);
+
+const cellsHorizontal = randomGenerator;
+const cellsVertical = randomGenerator;
 const width = window.innerWidth;
 const height = window.innerHeight;
 
