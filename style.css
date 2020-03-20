@@ -24,10 +24,37 @@ h1 {
 #replay {
   height: 10%;
   width: 30%;
-  background-color: indianred;
+  background-color: crimson;
   margin-left: 35%;
   margin-top: 32%;
   border-radius: 25px;
   border-style: none;
   z-index: 3;
+}
+
+#start-message {
+  font-size: 200%;
+  color: antiquewhite;
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  background-color: crimson;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  border-style: none;
+}
+
+#start-message:hover,
+#replay:hover {
+  background-color: brown;
+}
+
+#start-message:focus,
+#replay:focus {
+  outline: 0;
 }

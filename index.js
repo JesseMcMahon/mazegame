@@ -13,6 +13,11 @@ const unitLengthX = width / cellsHorizontal;
 const unitLengthY = height / cellsVertical;
 
 const playAgain = document.getElementById("replay");
+const startMessage = document.getElementById("start-message");
+
+startMessage.addEventListener("click", () => {
+  startMessage.classList.add("hidden");
+});
 
 const engine = Engine.create();
 engine.world.gravity.y = 0;
